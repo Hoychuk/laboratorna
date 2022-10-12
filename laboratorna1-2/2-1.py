@@ -1,5 +1,5 @@
 class Rectangle:
-    def __init__(self, length = 1, width = 1):
+    def __init__(self, length=1, width=1):
         self.length = length
         self.width = width
 
@@ -11,6 +11,8 @@ class Rectangle:
     def length(self, len):
         if not(len > 0 and len < 20):
             raise ValueError("Len not in range [0,20]")
+        if not isinstance(len,(float,int)):
+            raise TypeError("Length is not float")
         self.__length = len
 
     @property
@@ -21,6 +23,8 @@ class Rectangle:
     def width(self, wid):
         if not (wid > 0 and wid < 20):
             raise ValueError("Wid not in range [0,20]")
+        if not isinstance(wid,(float,int)):
+            raise TypeError("Width is not float")
         self.__width = wid
 
     def perimetr(self):

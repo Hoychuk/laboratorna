@@ -3,7 +3,11 @@ import re
 
 class Text:
     def __init__(self, text_file):
-        self.text_file = text_file
+        try:
+            self.text_file = text_file
+        except(EOFError, IOError, FileExistsError, FileNotFoundError):
+            print("Error")
+            exit(1)
 
     def Calculate_Chars(self):
         try:

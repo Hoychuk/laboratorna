@@ -29,32 +29,40 @@ class Student:
         return self.__name
 
     @name.setter
-    def name(self, nam):
-        self.__name = nam
+    def name(self, value):
+        if not isinstance(value, str):
+            raise TypeError("Wrong data")
+        self.__name = value
 
     @property
     def surname(self):
         return self.__surname
 
     @surname.setter
-    def surname(self, sur):
-        self.__surname = sur
+    def surname(self, value):
+        if not isinstance(value, str):
+            raise TypeError("Wrong data")
+        self.__surname = value
 
     @property
     def grades(self):
         return self.__grades
 
     @grades.setter
-    def grades(self, grad):
-        self.__grades = grad
+    def grades(self, value):
+        if not all (isinstance(i,int) for i in value.values() or not all(1 < i < 13 for i in value.values)):
+            raise TypeError("Wrong data")
+        self.__grades = value
 
     @property
     def number(self):
         return self.__number
 
     @number.setter
-    def number(self, num):
-        self.__number = num
+    def number(self, value):
+        if not isinstance(value, str):
+            raise TypeError("Wrong data")
+        self.__number = value
 
     @property
     def average(self):
@@ -71,8 +79,12 @@ class Group:
     def list_of_students(self):
         return self.__list_of_students
 
-    def append(self, stud):
-        self.__list_of_students += [stud]
+    def append(self, value):
+        if not isinstance(value, Student):
+            raise TypeError("Wrong data")
+        if not self.__check(value) or not len(self.list_of_students) < MAX_STUDENTS:
+            raise ValueError("There is already such student is group")
+        self.__list_of_students += [value]
 
     def __check(self, student_to_check: Student) -> bool:
         for student in self.list_of_students:
