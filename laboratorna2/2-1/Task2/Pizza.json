@@ -1,0 +1,87 @@
+{
+  "Pizza": [
+    {
+      "name": "Margarita",
+      "ingredients": [
+        "mozzarella",
+        "parmesan",
+        "tomatoes"
+      ],
+      "weight": 500,
+      "price": 85,
+      "day": "Monday"
+    },
+    {
+      "name": "Sicilian pizza",
+      "ingredients": [
+        "mozzarella",
+        "anchovies",
+        "onion"
+      ],
+      "weight": 480,
+      "price": 80,
+      "day": "Tuesday"
+    },
+    {
+      "name": "Pepperoni",
+      "ingredients": [
+        "mozzarella",
+        "pepperoni"
+      ],
+      "weight": 460,
+      "price": 80,
+      "day": "Wednesday"
+    },
+    {
+      "name": "Four cheese",
+      "ingredients": [
+        "mozzarella",
+        "cheddar",
+        "parmesan",
+        "Monterey Jack cheese",
+        "garlic",
+        "parsley"
+      ],
+      "weight": 480,
+      "price": 90,
+      "day": "Thursday"
+    },
+    {
+      "name": "Meat Pizza",
+      "ingredients": [
+        "salami",
+        "mozzarella",
+        "bacon",
+        "beef"
+      ],
+      "weight": 500,
+      "price": 100,
+      "day": "Friday"
+    },
+    {
+      "name": "Mushroom pizza",
+      "ingredients": [
+        "mozzarella",
+        "garlic",
+        "mushrooms",
+        "arugula"
+      ],
+      "weight": 480,
+      "price": 85,
+      "day": "Saturday"
+    },
+    {
+      "name": "Original Italian",
+      "ingredients": [
+        "tomatoes",
+        "mozzarella",
+        "arugula",
+        "ham",
+        "figs"
+      ],
+      "weight": 490,
+      "price": 80,
+      "day": "Sunday"
+    }
+  ]
+}

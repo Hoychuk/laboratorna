@@ -1,0 +1,16 @@
+{
+    "Data": {
+        "3db9004a-6039-11ed-b0dc-00e93a5040ac": {
+            "name": "Meat pizza",
+            "weight": 510,
+            "price": 37,
+            "purchase_date": "2022-11-09 16:17:43.361249"
+        },
+        "0bb99016-603c-11ed-b97d-00e93a5040ac": {
+            "name": "Pepperoni",
+            "weight": 460,
+            "price": 80,
+            "purchase_date": "2022-11-09 16:37:36.194700"
+        }
+    }
+}

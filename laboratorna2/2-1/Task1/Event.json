@@ -1,0 +1,28 @@
+{
+    "Events": [
+        {
+            "name": "Test1",
+            "place": "Ukraine",
+            "time": "12:00",
+            "date": "01.01.2022",
+            "price": 10,
+            "tickets": 99
+        },
+        {
+            "name": "Test2",
+            "place": "German",
+            "time": "15:00",
+            "date": "19.11.2022",
+            "price": 20,
+            "tickets": 199
+        },
+        {
+            "name": "Test3",
+            "place": "USA",
+            "time": "18:00",
+            "date": "03.03.2023",
+            "price": 30,
+            "tickets": 295
+        }
+    ]
+}

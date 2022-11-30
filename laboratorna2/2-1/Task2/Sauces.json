@@ -1,0 +1,41 @@
+{
+  "Sauces": [
+    {
+      "name": "Tomato_sauce",
+      "ingredients": [
+        "tomato paste",
+        "paper",
+        "salt"
+      ],
+      "weight": 40,
+      "price": 15
+    },
+    {
+      "name": "Creamy",
+      "ingredients": [
+        "cream",
+        "parmezan",
+        "milk",
+        "butter",
+        "flour",
+        "garlic",
+        "paper",
+        "salt"
+      ],
+      "weight": 40,
+      "price": 25
+    },
+    {
+      "name": "Unusual",
+      "ingredients": [
+        "parmezan",
+        "olive oil",
+        "garlic",
+        "basil",
+        "walnut"
+      ],
+      "weight": 50,
+      "price": 25
+    }
+  ]
+}
